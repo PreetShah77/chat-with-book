@@ -1,0 +1,92 @@
+2025-08-07 19:12:45,387 document_processor WARNING: No text extracted from C:\Users\preet\AppData\Local\Temp\tmpqw6_kdal\LOR 1.pdf
+2025-08-07 19:12:45,389 __main__ WARNING: No text extracted from uploaded documents
+2025-08-07 19:13:41,670 rag_pipeline ERROR: Error creating vector store: Could not import chromadb python package. Please install it with `pip install chromadb`.
+2025-08-07 19:13:41,670 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:13:57,595 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:14:00,926 rag_pipeline ERROR: Error creating vector store: Could not import chromadb python package. Please install it with `pip install chromadb`.
+2025-08-07 19:14:00,929 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:14:03,361 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:14:05,093 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:14:06,286 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:18:21,028 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:18:21,523 chromadb.config DEBUG: Starting component System
+2025-08-07 19:18:21,523 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:18:26,925 rag_pipeline ERROR: Error creating vector store: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-zW4oH*************o8kA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-08-07 19:18:26,925 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:19:00,283 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:19:04,113 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:19:04,401 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:19:04,567 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:19:05,800 __main__ WARNING: Question submitted without processed documents
+2025-08-07 19:21:47,033 __main__ ERROR: Invalid or missing API key
+2025-08-07 19:21:56,205 __main__ ERROR: Invalid or missing API key
+2025-08-07 19:21:59,967 __main__ ERROR: Invalid or missing API key
+2025-08-07 19:22:17,696 __main__ ERROR: Invalid or missing API key
+2025-08-07 19:22:30,463 __main__ ERROR: Invalid or missing API key
+2025-08-07 19:22:38,090 __main__ ERROR: Invalid or missing API key
+2025-08-07 19:23:19,356 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:23:19,387 chromadb.config DEBUG: Starting component System
+2025-08-07 19:23:19,387 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:23:19,443 rag_pipeline ERROR: Error creating vector store: 'OpenAI' object has no attribute 'embed_documents'
+2025-08-07 19:23:19,443 __main__ ERROR: Vector store creation failed
+2025-08-07 19:29:40,907 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:29:40,962 chromadb.config DEBUG: Starting component System
+2025-08-07 19:29:40,962 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:29:41,004 rag_pipeline ERROR: Error creating vector store: 'function' object has no attribute 'embed_documents'
+2025-08-07 19:29:41,004 __main__ ERROR: Vector store creation failed
+2025-08-07 19:31:42,418 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:31:42,459 chromadb.config DEBUG: Starting component System
+2025-08-07 19:31:42,459 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:31:46,947 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:32:00,008 rag_pipeline ERROR: Error in RAG pipeline: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<function ask_question.<l...m at 0x0000026E0D17E5F0>, input_type=function]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<function ask_question.<l...m at 0x0000026E0D17E5F0>, input_type=function]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+2025-08-07 19:32:00,009 __main__ ERROR: Unexpected error: 2 validation errors for LLMChain
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<function ask_question.<l...m at 0x0000026E0D17E5F0>, input_type=function]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+llm.is-instance[Runnable]
+  Input should be an instance of Runnable [type=is_instance_of, input_value=<function ask_question.<l...m at 0x0000026E0D17E5F0>, input_type=function]
+    For further information visit https://errors.pydantic.dev/2.11/v/is_instance_of
+2025-08-07 19:34:32,878 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:34:32,938 chromadb.config DEBUG: Starting component System
+2025-08-07 19:34:32,938 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:34:36,138 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:35:15,725 rag_pipeline ERROR: Error in LLM invocation: Error code: 400 - {'error': {'message': "litellm.BadRequestError: OpenAIException - 3 validation errors for ValidatorIterator\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_typeNo fallback model group found for original model_group=Meta-Llama-3-1-8B-Instruct-FP8. Fallbacks=[{'DeepSeek-R1-Distill-Qwen-14B': ['Meta-Llama-3-3-70B-Instruct']}, {'Meta-Llama-3-2-3B-Instruct': ['Meta-Llama-3-3-70B-Instruct']}, {'DeepSeek-R1-Distill-Llama-70B': ['Meta-Llama-3-3-70B-Instruct']}]. Received Model Group=Meta-Llama-3-1-8B-Instruct-FP8\nAvailable Model Group Fallbacks=None\nError doing the fallback: litellm.BadRequestError: OpenAIException - 3 validation errors for ValidatorIterator\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_typeNo fallback model group found for original model_group=Meta-Llama-3-1-8B-Instruct-FP8. Fallbacks=[{'DeepSeek-R1-Distill-Qwen-14B': ['Meta-Llama-3-3-70B-Instruct']}, {'Meta-Llama-3-2-3B-Instruct': ['Meta-Llama-3-3-70B-Instruct']}, {'DeepSeek-R1-Distill-Llama-70B': ['Meta-Llama-3-3-70B-Instruct']}] LiteLLM Retried: 2 times, LiteLLM Max Retries: 3", 'type': None, 'param': None, 'code': '400'}}
+2025-08-07 19:35:15,727 rag_pipeline ERROR: Error in RAG pipeline: Error code: 400 - {'error': {'message': "litellm.BadRequestError: OpenAIException - 3 validation errors for ValidatorIterator\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_typeNo fallback model group found for original model_group=Meta-Llama-3-1-8B-Instruct-FP8. Fallbacks=[{'DeepSeek-R1-Distill-Qwen-14B': ['Meta-Llama-3-3-70B-Instruct']}, {'Meta-Llama-3-2-3B-Instruct': ['Meta-Llama-3-3-70B-Instruct']}, {'DeepSeek-R1-Distill-Llama-70B': ['Meta-Llama-3-3-70B-Instruct']}]. Received Model Group=Meta-Llama-3-1-8B-Instruct-FP8\nAvailable Model Group Fallbacks=None\nError doing the fallback: litellm.BadRequestError: OpenAIException - 3 validation errors for ValidatorIterator\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_typeNo fallback model group found for original model_group=Meta-Llama-3-1-8B-Instruct-FP8. Fallbacks=[{'DeepSeek-R1-Distill-Qwen-14B': ['Meta-Llama-3-3-70B-Instruct']}, {'Meta-Llama-3-2-3B-Instruct': ['Meta-Llama-3-3-70B-Instruct']}, {'DeepSeek-R1-Distill-Llama-70B': ['Meta-Llama-3-3-70B-Instruct']}] LiteLLM Retried: 2 times, LiteLLM Max Retries: 3", 'type': None, 'param': None, 'code': '400'}}
+2025-08-07 19:35:15,729 __main__ ERROR: Unexpected error: Error code: 400 - {'error': {'message': "litellm.BadRequestError: OpenAIException - 3 validation errors for ValidatorIterator\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_typeNo fallback model group found for original model_group=Meta-Llama-3-1-8B-Instruct-FP8. Fallbacks=[{'DeepSeek-R1-Distill-Qwen-14B': ['Meta-Llama-3-3-70B-Instruct']}, {'Meta-Llama-3-2-3B-Instruct': ['Meta-Llama-3-3-70B-Instruct']}, {'DeepSeek-R1-Distill-Llama-70B': ['Meta-Llama-3-3-70B-Instruct']}]. Received Model Group=Meta-Llama-3-1-8B-Instruct-FP8\nAvailable Model Group Fallbacks=None\nError doing the fallback: litellm.BadRequestError: OpenAIException - 3 validation errors for ValidatorIterator\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_type\n0.typed-dict\n  Input should be a valid dictionary [type=dict_type, input_value='text', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/dict_typeNo fallback model group found for original model_group=Meta-Llama-3-1-8B-Instruct-FP8. Fallbacks=[{'DeepSeek-R1-Distill-Qwen-14B': ['Meta-Llama-3-3-70B-Instruct']}, {'Meta-Llama-3-2-3B-Instruct': ['Meta-Llama-3-3-70B-Instruct']}, {'DeepSeek-R1-Distill-Llama-70B': ['Meta-Llama-3-3-70B-Instruct']}] LiteLLM Retried: 2 times, LiteLLM Max Retries: 3", 'type': None, 'param': None, 'code': '400'}}
+2025-08-07 19:37:24,966 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:37:25,020 chromadb.config DEBUG: Starting component System
+2025-08-07 19:37:25,020 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:37:28,234 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:37:35,092 rag_pipeline INFO: Retrieved documents: ['C:\\Users\\preet\\AppData\\Local\\Temp\\tmp3pysrxay\\Manan Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmpo5jkoot1\\Manan Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmpmj_uvaap\\Paresh Sir LOR-Vriddhi shah.docx']
+2025-08-07 19:37:35,092 __main__ INFO: Question: what is this document about | Answer: This document appears to be a collection of letters of recommendation for Ms. Vriddhi Shah, endorsing her for admission to a graduate program at an institution. The letters highlight her intellectual abilities, technical expertise, and personal qualities, expressing confidence in her potential to excel academically and contribute to the institution.
+2025-08-07 19:37:58,343 rag_pipeline INFO: Retrieved documents: ['C:\\Users\\preet\\AppData\\Local\\Temp\\tmpmj_uvaap\\Paresh Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmp3pysrxay\\Manan Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmpo5jkoot1\\Manan Sir LOR-Vriddhi shah.docx']
+2025-08-07 19:37:58,343 __main__ INFO: Question: what is her best quality | Answer: Based on the provided context, it's difficult to pinpoint a single "best quality" of Ms. Vriddhi Shah, as multiple qualities are highlighted across the recommendations. These include her technical expertise, academic excellence, interpersonal skills, intellectual acumen, and passion for innovation. Since the question asks for her "best quality" and the recommendations provide a range of strengths without prioritizing one over the others, I don't know what her single best quality is according to the provided information.
+2025-08-07 19:38:39,219 rag_pipeline INFO: Retrieved documents: ['C:\\Users\\preet\\AppData\\Local\\Temp\\tmpmj_uvaap\\Paresh Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmpmj_uvaap\\Paresh Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmpo5jkoot1\\Manan Sir LOR-Vriddhi shah.docx']
+2025-08-07 19:38:39,219 __main__ INFO: Question: what is her qualities | Answer: Based on the provided context, Vriddhi's qualities include:
+
+1. Exceptional dedication
+2. Intellectual curiosity
+3. Strong aptitude for technical concepts
+4. Meticulous approach to learning
+5. Ability to translate theoretical knowledge into practical applications
+6. Good problem-solving skills
+7. Understanding of complex security protocols
+8. Technical expertise
+9. Academic excellence
+10. Interpersonal skills
+11. Intellectual acumen
+12. Passion for innovation
+
+These qualities are highlighted by her professors as strengths that make her a valuable candidate for graduate program admission.
+2025-08-07 19:54:04,029 chromadb.telemetry.product.posthog INFO: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-08-07 19:54:04,107 chromadb.config DEBUG: Starting component System
+2025-08-07 19:54:04,107 chromadb.config DEBUG: Starting component Posthog
+2025-08-07 19:54:13,083 __main__ INFO: Documents processed and vector store created
+2025-08-07 19:54:35,158 rag_pipeline INFO: Retrieved documents: ['C:\\Users\\preet\\AppData\\Local\\Temp\\tmpmj_uvaap\\Paresh Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmp3pysrxay\\Manan Sir LOR-Vriddhi shah.docx', 'C:\\Users\\preet\\AppData\\Local\\Temp\\tmpo5jkoot1\\Manan Sir LOR-Vriddhi shah.docx']
+2025-08-07 19:54:35,158 __main__ INFO: Question: describe vriddhi | Answer: Vriddhi is an exceptional individual with outstanding technical expertise, particularly in Artificial Intelligence and Web Technology, where she has demonstrated a profound understanding of core principles and consistently approached problems with analytical precision and creativity. She also possesses excellent interpersonal skills, being an effective communicator and a proactive team member who fosters an atmosphere of mutual respect and cooperation. Her enthusiasm for continuous learning and holistic development is evident through her participation in various seminars, technical workshops, and extracurricular activities. Overall, Vriddhi is characterized by her intellectual curiosity, analytical mindset, and collaborative approach, making her excel in both theoretical and practical aspects of her fields of study.
